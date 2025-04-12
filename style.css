@@ -50,3 +50,34 @@ img{
 .header .social a:hover{
     opacity: 1;
 }
+@media screen and (max-width:390px) {
+    .header{
+        flex-direction: column;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: absolute;    
+    }
+    .header .logo{
+        margin-bottom: 20px;
+    }
+    .header .social{
+        margin-top: 20px;
+    }
+    .header .logo a{
+        font-size: 1.1rem;
+    }    
+}
+@media screen and (max-width:835px) {
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header .logo{
+        margin-bottom: 25px;
+    }
+    .header .social{
+        margin-top: 25px;
+    }
+    
+}
