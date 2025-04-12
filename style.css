@@ -50,6 +50,11 @@ img{
 .header .social a:hover{
     opacity: 1;
 }
+.barniere{
+    height: 550px;
+    background: url("img/image-header.jpg") center center /cover no-repeat;
+
+}
 @media screen and (max-width:390px) {
     .header{
         flex-direction: column;
@@ -66,6 +71,9 @@ img{
     }
     .header .logo a{
         font-size: 1.1rem;
+    }
+    .barniere{
+        height: 380px;
     }    
 }
 @media screen and (max-width:835px) {
@@ -79,5 +87,8 @@ img{
     .header .social{
         margin-top: 25px;
     }
+    .barniere{
+        height: 430px;
+    }    
     
 }
