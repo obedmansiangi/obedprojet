@@ -26,6 +26,7 @@ img{
     justify-content: space-between;
     background: #24292f;
     color: #CCCCCC;
+    z-index: 100;
 }
 .header .logo a{
     text-transform: uppercase;
@@ -53,8 +54,54 @@ img{
 .barniere{
     height: 550px;
     background: url("img/image-header.jpg") center center /cover no-repeat;
-
 }
+.main{
+    max-width: 1150px;
+    margin:0 auto;   
+}
+.main .title_information{
+    text-align: center;
+    padding: 50px 0;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c2bbbb;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.main p{
+    padding-bottom: 25px;
+    text-align: justify;
+    font-size: .905rem;
+}
+.main .main_article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.main .main_article img{
+    width: 50%;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background: #24292f;
+    color: #CCCCCC;
+    margin-top: 200px;
+    padding: 20px 0;
+}
+.footer .social a{
+    padding: 10px;
+    opacity: .5;
+}
+.footer .social a:hover{
+    opacity: 1;
+}
+.footer span{
+    color: rgb(228, 92, 92);
+}
+    
+
 @media screen and (max-width:390px) {
     .header{
         flex-direction: column;
